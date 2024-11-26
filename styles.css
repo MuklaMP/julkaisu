@@ -1,0 +1,61 @@
+body {
+    background-image: url('pics/hogwarts-legacy1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1500px;
+    display: block;
+}
+
+#container1 {
+    background: rgb(188, 188, 188);
+}
+
+#hp1-logo {
+    display: block;
+    margin-top: -15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -10px;
+    max-width: 200px;
+}
+
+.navbar {
+    border-top: 5px solid rgb(85, 85, 85);
+    border-bottom: 5px solid rgb(188, 188, 188);
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-toggler {
+    margin-left: 20px;
+}
+
+#container2 {
+    margin-top: 30px;
+    width: 95%;
+}
+
+.btn {
+    margin: -8px 0px 0px 10px;
+}
+
+@media only screen and (min-width: 750px) {
+    body {
+        background-image: url('pics/hogwarts-legacy2.jpg');
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #hp1-logo {
+        max-width: 500px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    body {
+        background-image: url('pics/hogwarts-legacy3.jpg');
+    }
+}
